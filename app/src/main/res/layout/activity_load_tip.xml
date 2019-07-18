@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoadTips">
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonbackgraund5"
+        android:text="نصائح"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:id="@+id/button3_frement"
+        />
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonbackgraund8"
+        android:text="قواعد هامة"
+
+        app:layout_constraintStart_toEndOf="@id/button3_frement"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:id="@+id/button4_frement"
+        />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toBottomOf="@id/button4_frement"
+        android:layout_marginTop="70dp"
+        android:id="@+id/fram"
+
+
+        ></FrameLayout>
+
+
+</android.support.constraint.ConstraintLayout>
